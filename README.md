@@ -20,4 +20,8 @@ npx mocha specs/weatherDetail.spec.js
 SuperTest,
 Mocha,
 Chai,
-Javascript,
+Javascript
+
+## Speciality
+
+Using ES6 standard code, rather than common js, for better import statements
