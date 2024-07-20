@@ -25,3 +25,8 @@ Javascript
 ## Speciality
 
 Using ES6 standard code, rather than common js, for better import statements
+
+## Future updates
+
+Fetching auth token from github secrets, if we are setting pipeline in github
+In local fetching token value from envSec
