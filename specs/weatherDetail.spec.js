@@ -1,14 +1,9 @@
 import { describe } from "mocha";
 import { expect } from "chai"
-import supertest from "supertest";
 import createTestData from "../utility/convertCSVToJsObject.js";
 import sortData from "../utility/sortData.js";
 import weatherDetails from "../request/WeatherDetails.js";
 
-const api = supertest('https://api.openweathermap.org/data/2.5');
-
-
-const API_KEY = 'e393dcf1dbf0adbfc89af91e883c9809';
 
 describe('OpenWeather API Tests', () => {
     let location,statusCode
