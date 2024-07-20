@@ -31,4 +31,4 @@ Using ES6 standard code, rather than common js, for better import statements
 Fetching auth token from github secrets, if we are setting pipeline in github
 In local fetching token value from envSec [Completed]
 
-There is no request body, other we would have used requestBuilder for data serialisation
+There is no request body, otherwise we would have used requestBuilder for data serialisation
