@@ -1,0 +1,19 @@
+{
+  "name": "api_automation_supertest",
+  "version": "1.0.0",
+  "description": "api automation using supertest javascript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Abhilash kumar singh",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "mocha": "^10.6.0",
+    "supertest": "^7.0.0"
+  }
+}
