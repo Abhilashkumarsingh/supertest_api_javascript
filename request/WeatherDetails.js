@@ -1,8 +1,9 @@
 import supertest from "supertest";
+import envSec from "../utility/envSec.js";
 
 const api = supertest('https://api.openweathermap.org/data/2.5');
 
-const API_KEY = 'e393dcf1dbf0adbfc89af91e883c9809';
+const API_KEY = envSec.api_key
 class WeatherDetails{
     async getWeatherDetailsViaName(name){
         const response = await api.get('/weather')
