@@ -1,7 +1,7 @@
 import { describe } from "mocha";
 import { expect } from "chai"
 import supertest from "supertest";
-import createTestData from "../utility/convertCSVToJson.js";
+import createTestData from "../utility/convertCSVToJsObject.js";
 import sortData from "../utility/sortData.js";
 import weatherDetails from "../request/WeatherDetails.js";
 
