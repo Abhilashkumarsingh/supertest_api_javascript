@@ -1,6 +1,6 @@
 class SortData{
     sortIncreasingOrder(dict) {
-        let sortedObjects = Object.entries(dict);
+        let sortedObjects = Object.entries(dict); 
         sortedObjects.sort((a, b) => a[1] - b[1]);
         return Object.fromEntries(sortedObjects);
     }

@@ -7,6 +7,7 @@ import weatherDetails from "../request/WeatherDetails.js";
 
 describe('OpenWeather API Tests', () => {
     let location,statusCode
+    
     it('should return current weather data for a city by name', async () => {
         /**
          * to city name can be case insensitive
@@ -37,6 +38,7 @@ describe('OpenWeather API Tests', () => {
             }
         }
         let result= sortData.sortIncreasingOrder(temperatureList)
+        console.log(result)
         expect(result).not.null
         
     });       
